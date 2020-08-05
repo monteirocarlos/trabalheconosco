@@ -222,8 +222,29 @@ table {
   clear: both;
 }
 
-div {
-  font-family: "Aref Ruqaa", serif;
-  font-family: "PT Mono", monospace;
+.header_logo {
+  display: block;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.header_logo img {
+  width: 340px;
+  height: 80px;
+}
+
+.header_sair {
+  display: block;
+  margin-top: 40px;
+  text-align: right;
+}
+
+.header_sair img {
+  width: 40px;
+  height: 40px;
+}
+
+.container {
+  background-color: gray;
 }
 /*# sourceMappingURL=style.css.map */
