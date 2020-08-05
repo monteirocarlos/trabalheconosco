@@ -222,10 +222,16 @@ table {
   clear: both;
 }
 
+@font-face {
+  font-family: Venn;
+  src: url(../font/venn-lt);
+}
+
 .header_logo {
   display: block;
   text-align: left;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .header_logo img {
@@ -267,5 +273,27 @@ table {
   text-align: center;
   margin-top: 30px;
   color: #FFFFFF;
+  font-family: Venn;
+}
+
+.titulo {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 24px;
+  font-family: Venn;
+  margin-bottom: 800px;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: #575656;
+  text-align: center;
+  font-family: Venn;
+  color: #FFFFFF;
+}
+
+.footer_texto {
+  margin-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */
