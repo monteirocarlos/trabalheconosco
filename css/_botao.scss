@@ -1,0 +1,16 @@
+.botao{
+    margin-top: 40px;
+}
+
+.btn {
+    border: 3px solid $azul;
+    border-radius: 1em;
+    background: $azul;
+    padding: 10px 30px;
+    color: $branco;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+}

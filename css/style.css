@@ -281,7 +281,7 @@ table {
   text-align: center;
   font-size: 24px;
   font-family: Venn;
-  margin-bottom: 800px;
+  margin-bottom: 300px;
 }
 
 footer {
@@ -294,6 +294,23 @@ footer {
 }
 
 .footer_texto {
-  margin-top: 20px;
+  margin-top: 22px;
+}
+
+.botao {
+  margin-top: 40px;
+}
+
+.btn {
+  border: 3px solid #51BECA;
+  border-radius: 1em;
+  background: #51BECA;
+  padding: 10px 30px;
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .1em;
 }
 /*# sourceMappingURL=style.css.map */
