@@ -1,3 +1,7 @@
+<?php
+session_start();
+include ("controller/banco.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,8 +49,14 @@
                     </div>
 
                     <div class="tabela_resumo">
-                        <td>Analista de redes</td>
-                        <td>adfdsafdsadddddddddddddddddddddfsadfsdafaaaasdfsa</td>
+                    <?php 
+                    $lista_talentos = "SELECT * FROM tb_talentos";
+                    $con = $mysqli->query($lista_talentos) or die ($mysqli->error);
+                     while($dados = $con->fetch_array()){ ?>
+                        <td style="display:none;"><?php echo $dados['id_talento'];?></td>
+                        <td><?php echo $dados['candidato'];?></td>
+                        <td><?php echo $dados['setor'];?></td>
+                     <?php } ?>
                     </div> 
                 </table>
                     
@@ -69,3 +79,4 @@
 
 </body>
 </html>
+
