@@ -281,7 +281,6 @@ table {
   text-align: center;
   font-size: 24px;
   font-family: Venn;
-  margin-bottom: 300px;
 }
 
 footer {
@@ -291,6 +290,7 @@ footer {
   text-align: center;
   font-family: Venn;
   color: #FFFFFF;
+  margin-top: 50px;
 }
 
 .footer_texto {
@@ -298,7 +298,7 @@ footer {
 }
 
 .botao {
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .btn {
@@ -312,5 +312,34 @@ footer {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: .1em;
+}
+
+.tabela {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.tabela tr {
+  padding: 50px;
+}
+
+.tabela td {
+  padding: 20px;
+  border-radius: 1em;
+  background: #EFEFF2;
+}
+
+.tabela th {
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #51BECA;
+  border-radius: 1em;
+  text-align: center;
+}
+
+.tabela_topo {
+  margin-top: 40px;
 }
 /*# sourceMappingURL=style.css.map */

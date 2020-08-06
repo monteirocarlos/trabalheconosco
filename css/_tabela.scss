@@ -1,0 +1,25 @@
+.tabela {   
+text-align: center;
+margin-bottom: 50px;
+ tr{
+     padding: 50px;
+ }
+ td {
+    padding: 20px;
+    border-radius: 1em;
+    background: #EFEFF2 ;
+ }
+  th {
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $branco;
+    background: $azul;
+    border-radius: 1em;
+    text-align: center;
+  }
+}
+
+.tabela_topo {
+  margin-top: 40px;
+}
