@@ -56,14 +56,14 @@ include ("controller/banco.php");
                      <tr>
                         <td style="display:none;"><?php echo $dados['id_vaga'];?></td>
                         <td class= "grid-5"><?php echo $dados['vagas'];?></td>
-                        <td class= "grid-7"><?php echo $dados['descricao'];?></td>
+                        <td class="grid-7"><p>Visualizar</p></td>
                         </tr>
                      <?php } ?>
                     </div> 
                 </table>
                     
                 <a class="btn" href="https://www.cybernetprovedor.com">
-                    CADASTRE SEU CURRÍCULO
+                    CADASTRE-SE NA VAGA
                 </a>
             
             </div>
