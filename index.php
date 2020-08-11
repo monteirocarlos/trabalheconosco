@@ -8,7 +8,7 @@ include ("controller/banco.php");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Trabalhe Conosco -Cybernet</title>
+    <title>Trabalhe Conosco - Cybernet</title>
 </head>
 <body>
     <header>
@@ -43,19 +43,21 @@ include ("controller/banco.php");
                 <table class=" tabela grid-12">
                     <div class="tabela_topo">
                         <tr>
-                            <th>Vagas</th>
-                            <th>Descrição</th>                      
+                            <th class="grid-5">Vagas</th>
+                            <th class="grid-7">Descrição</th>                      
                         </tr>
                     </div>
 
                     <div class="tabela_resumo">
                     <?php 
-                    $lista_talentos = "SELECT * FROM tb_talentos";
+                    $lista_talentos = "SELECT * FROM tb_vagas ";
                     $con = $mysqli->query($lista_talentos) or die ($mysqli->error);
                      while($dados = $con->fetch_array()){ ?>
-                        <td style="display:none;"><?php echo $dados['id_talento'];?></td>
-                        <td><?php echo $dados['candidato'];?></td>
-                        <td><?php echo $dados['setor'];?></td>
+                     <tr>
+                        <td style="display:none;"><?php echo $dados['id_vaga'];?></td>
+                        <td class= "grid-5"><?php echo $dados['vagas'];?></td>
+                        <td class= "grid-7"><?php echo $dados['descricao'];?></td>
+                        </tr>
                      <?php } ?>
                     </div> 
                 </table>
